@@ -1,0 +1,23 @@
+Time: 02/12
+-Learn----
+
+1. Basic Swift
+2. Create FindAge App
+
+
+-Problem----
+
+
+1. compare Set and Array
+2. meaning of Syntax ? !  After variables
+3. Protocol with class override 
+4. Type casting: have 2 class (file object oriented Programming)
+    1. child class override a function - getPrice
+    2. When use type casting a instance of child class to parent class:  
+	a = Child Class() as parent Class
+    3. After that, call a.getPrice 
+        1. Which getPrice function is called?  The one of child class or the one of parent 	class. 
+5. In real project, how often extension is used ?
+6. UITextFieldDelegate, not smoothly
+7. Access Control: public, private, internal 
+    1. Note Internal method: mean this method can be accessed only in the current file
