@@ -9,15 +9,55 @@ Time: 02/12
 
 
 1. compare Set and Array
+Set trong lập trình dự án thực tế gần như không bao dùng. Chú mà quan tâm đọc kỹ link dưới.
+Đại ý Set kiểu không có thứ tự, dữ liệu không trùng nhau.
+Còn Array tương tự ngôn ngữ khác thôi.
+
+Đọc thêm Set ở đây: https://fabiti.com/apple/swift/bai-13-phuong-phap-tao-va-quan-ly-set-trong-swift.html
+
 2. meaning of Syntax ? !  After variables
+Chấm than ! chỉ dùng khi chắc chắn biết cái mình đang dùng là gì thì mới dùng. Không rất dễ crash. Code cẩn thận có thể thay thế tất cả ! sang ? luôn.
+
+myObject?.doSomething() // không thực hiện khi myObject bị nil 
+myObject!.doSomething() // crash khi myObject bị nil
+
+Kiểu Optional
+Chính là kiểu bình thường + nil
+
+Ví dụ String? bao gồm cả String và nil
+
+var myVariable: String? 
+
+Khi myVariable = nil chương trình vẫn chạy bình thường.
+
+Khi khai báo var myVariable: String sẽ bị crash khi myVariable = nil
+
+Chưa hiểu kỹ: search với từ khoá Optional mà tìm hiểu tiếp nhé
+
 3. Protocol with class override 
+Khái niệm protocol trong Swift gần tương đương interface trong Java
+
 4. Type casting: have 2 class (file object oriented Programming)
     1. child class override a function - getPrice
     2. When use type casting a instance of child class to parent class:  
 	a = Child Class() as parent Class
     3. After that, call a.getPrice 
         1. Which getPrice function is called?  The one of child class or the one of parent 	class. 
+
+Tính chất OOP tương tự ngôn ngữ lập trình khác thôi
+
 5. In real project, how often extension is used ?
-6. UITextFieldDelegate, not smoothly
+
+extension rất hay được dùng trong dự án thực tế
+- Để viết thêm method cho class của cả hệ thống và chính mình
+- Anh cũng hay dùng để tách class ra cho nhỏ dễ nhìn hơn. (Ví dụ như những cái gì chung chắc năng để cùng 1 extension còn lại tách ra, hay class lớn quá, tách ra thành nhiều file cũng )
+
+6. UITextFieldDelegate, not smoothlyđược
+Cái này đơn giản chỉ là cái Apple viết sẵn. Cứ thế mà sử dụng thôi. Không hiểu rõ method nào thì vào Apple Document mà tra cứu thôi https://developer.apple.com/documentation/uikit/uitextfielddelegate
+
+Một khái niệm cũng khá quan trọng phải tìm hiểu. Đó là Delegate trong iOS. Search tìm hiểu thêm nhé.
+
 7. Access Control: public, private, internal 
     1. Note Internal method: mean this method can be accessed only in the current file
+
+Cái này phạm vi truy cập rồi :D Cái này chú search ra được. Còn 1 kiểu nữa: Fileprivate nhé. Search tìm hiểu thêm xem.
