@@ -25,6 +25,9 @@
                                 <color key="textColor" red="0.0082432867376562025" green="0.018073996113989632" blue="0.011122603090850256" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="uFV-Mz-bPf"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgw-q8-iHh">
                                 <rect key="frame" x="243" y="317" width="116" height="32"/>

@@ -9,6 +9,7 @@ Time: 02/12
 
 
 1. compare Set and Array
+
 Set trong lập trình dự án thực tế gần như không bao dùng. Chú mà quan tâm đọc kỹ link dưới.
 Đại ý Set kiểu không có thứ tự, dữ liệu không trùng nhau.
 Còn Array tương tự ngôn ngữ khác thôi.
@@ -37,12 +38,14 @@ Chưa hiểu kỹ: search với từ khoá Optional mà tìm hiểu tiếp nhé
 3. Protocol with class override 
 Khái niệm protocol trong Swift gần tương đương interface trong Java
 
+
 4. Type casting: have 2 class (file object oriented Programming)
     1. child class override a function - getPrice
     2. When use type casting a instance of child class to parent class:  
 	a = Child Class() as parent Class
     3. After that, call a.getPrice 
         1. Which getPrice function is called?  The one of child class or the one of parent 	class. 
+
 
 Tính chất OOP tương tự ngôn ngữ lập trình khác thôi
 
